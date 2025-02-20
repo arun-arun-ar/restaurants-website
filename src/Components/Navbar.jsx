@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Utensils, X, Menu } from "lucide-react"
+import React, { useState } from 'react';
+import { Utensils, X, Menu } from 'lucide-react';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const [isPagesOpen, setIsPagesOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [isPagesOpen, setIsPagesOpen] = useState(false);
 
   const navLinks = [
     { name: 'Home', href: '#' },
@@ -19,7 +19,7 @@ const Navbar = () => {
       ]
     },
     { name: 'Contact', href: '#' },
-  ]
+  ];
 
   return (
     <div className='bg-slate-900'>
@@ -119,7 +119,7 @@ const Navbar = () => {
         )}
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

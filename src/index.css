@@ -11,6 +11,6 @@
 
 @layer utilities {
     .animate-slow-spin {
-      animation: spin 5s linear infinite;
+      animation: spin 30s linear infinite;
     }
   }

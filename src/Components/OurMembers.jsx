@@ -74,7 +74,7 @@ const OurMembers = () => {
     return (
         <div className="py-12 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl text-center font-bold text-gray-900 mb-12">
+                <h2 className="text-center text-amber-400 pacifico-font text-4xl py-6 my-3">
                     Our Team Members
                 </h2>
                 
