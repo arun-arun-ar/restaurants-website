@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 @import "tailwindcss";
+
+
+.pacifico-font {
+    font-family: 'Pacifico', cursive;
+}
+
+
+@layer utilities {
+    .animate-slow-spin {
+      animation: spin 5s linear infinite;
+    }
+  }

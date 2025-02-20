@@ -1,5 +1,6 @@
-import { Facebook, Instagram, Linkedin, Mail, MapPin, PhoneCall, Twitter } from 'lucide-react';
 import React from 'react';
+import { Facebook, Instagram, Linkedin, Mail, MapPin, PhoneCall, Twitter } from 'lucide-react';
+
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
 
                 {/* Company Section */}
                 <div className="text-amber-400">
-                    <h1 className="text-2xl font-bold">Company</h1>
+                    <h1 className="text-2xl font-bold pacifico-font">Company --</h1>
                     <ul className="text-white my-2 space-y-2">
                         <li className="hover:text-amber-400 cursor-pointer">About Us</li>
                         <li className="hover:text-amber-400 cursor-pointer">Contact Us</li>
@@ -19,7 +20,7 @@ const Footer = () => {
 
                 {/* Contact Section */}
                 <div className="text-amber-400">
-                    <h1 className="text-2xl font-bold">Contact</h1>
+                    <h1 className="text-2xl font-bold pacifico-font">Contact --</h1>
                     <div className="flex gap-2 my-2 text-white hover:text-amber-400">
                         <MapPin />
                         <p>123 Street, Kathmandu, Nepal</p>
@@ -52,7 +53,7 @@ const Footer = () => {
 
                 {/* Opening Hours Section */}
                 <div>
-                    <h1 className="text-2xl font-bold text-amber-400">Open</h1>
+                    <h1 className="text-2xl font-bold text-amber-400 pacifico-font">Open --</h1>
                     <div className="text-white">
                         <h3 className="font-bold hover:text-amber-400">Sunday - Friday</h3>
                         <p className="font-semibold my-2 hover:text-amber-400">09AM to 11PM</p>
@@ -65,7 +66,7 @@ const Footer = () => {
 
                 {/* Newsletter Section */}
                 <div className="text-amber-400">
-                    <h1 className="text-2xl font-bold">Newsletter</h1>
+                    <h1 className="text-2xl font-bold pacifico-font">Newsletter --</h1>
                     <p className="text-white">Lorem ipsum dolor sit amet.</p>
                     <input
                         type="email"
@@ -77,7 +78,7 @@ const Footer = () => {
                 </div>
             </div>
             <div >
-                <p className='text-white text-center pt-5 mt-5'>© All Right Reserved | Designed Arun Acharya</p>
+                <p className='text-white text-center pt-5 mt-5 pacifico-font'>© All Right Reserved | Designed by Arun Acharya</p>
             </div>
         </div>
     );
